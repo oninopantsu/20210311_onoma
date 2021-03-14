@@ -177,9 +177,9 @@ p {
   color: #707070;
 }
 .news_container{
-  width: 700px;
+  width: 750px;
   height: 436px;
-  margin: 80px 340px 150px;
+  margin: 100px auto;
   display: block;
 }
 .news-wrapper{
@@ -353,8 +353,9 @@ padding-left: 190px;
 
 .card_items{
   display: flex;
-  width: 60%;
-  margin-left: 60px;
+  width: 80%;
+  justify-content: space-around;
+  margin-bottom: 50px;
 }
 .card_img >img {
   width: 290px;
@@ -407,7 +408,7 @@ padding-left: 190px;
   border: 1px solid #B31566;
   text-decoration: none;
   display: inline-block;
-  margin: 50px 600px;
+  text-align: center;
 }
 .card_btn:hover{
   background-color: #B31566;
